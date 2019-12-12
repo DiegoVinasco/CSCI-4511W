@@ -1,0 +1,792 @@
+C:\Python34\python.exe C:/Users/Diego/Documents/GitHub/team-23/Sliding_Diego/RunTests.py
+=== Initial goal test ===
+
+Initial State:
+[  1  2  3 ]
+[  4  5  6 ]
+[  7  8  0 ]
+
+
+Running Manhattan Test
+Initial cost: 0
+Problem is already solved
+
+Running StraightLine Test
+Initial cost: 0.0
+Problem is already solved
+
+--- Results ---
+
+Manhattan Time: 0:00:00
+Manhattan Cost: 0
+Manhattan Depth: 0
+Straight-Line Time: 0:00:00.001000
+Straight-Line Cost: 0.0
+Straight-Line Depth: 0 
+
+=== Near solution test ===
+
+Initial State:
+[  1  2  3 ]
+[  4  5  6 ]
+[  7  0  8 ]
+
+
+Running Manhattan Test
+Initial cost: 1
+Goal state found
+
+Running StraightLine Test
+Initial cost: 1.0
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00
+Manhattan Cost: 1
+Manhattan Depth: 1
+Straight-Line Time: 0:00:00
+Straight-Line Cost: 1.0
+Straight-Line Depth: 1 
+
+=== Static 3x3 test ===
+
+Initial State:
+[  8  3  2 ]
+[  7  4  6 ]
+[  5  1  0 ]
+
+
+Running Manhattan Test
+Initial cost: 12
+Goal state found
+
+Running StraightLine Test
+Initial cost: 9.886349517372675
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.128121
+Manhattan Cost: 636
+Manhattan Depth: 88
+Straight-Line Time: 0:00:00.205195
+Straight-Line Cost: 531.7372794354349
+Straight-Line Depth: 90 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  3 10  4 ]
+[  5  0  9  7 ]
+[ 11  2  6  8 ]
+[ 13 14 15 12 ]
+
+
+Running Manhattan Test
+Initial cost: 16
+Goal state found
+
+Running StraightLine Test
+Initial cost: 13.886349517372675
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.084082
+Manhattan Cost: 316
+Manhattan Depth: 48
+Straight-Line Time: 0:00:00.081076
+Straight-Line Cost: 251.35972766457868
+Straight-Line Depth: 40 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  6  0  7 ]
+[  5  3  4  9 ]
+[ 13  2 11  8 ]
+[ 14 10 15 12 ]
+
+
+Running Manhattan Test
+Initial cost: 18
+Goal state found
+
+Running StraightLine Test
+Initial cost: 15.404918347287664
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:04.307099
+Manhattan Cost: 1683
+Manhattan Depth: 194
+Straight-Line Time: 0:00:00.115109
+Straight-Line Cost: 455.58407820157174
+Straight-Line Depth: 50 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  8  3  4 ]
+[  5 13  2  6 ]
+[ 10 14  7 12 ]
+[  9  0 11 15 ]
+
+
+Running Manhattan Test
+Initial cost: 16
+Goal state found
+
+Running StraightLine Test
+Initial cost: 13.886349517372675
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.210200
+Manhattan Cost: 536
+Manhattan Depth: 76
+Straight-Line Time: 0:00:00.451430
+Straight-Line Cost: 585.2714363065251
+Straight-Line Depth: 98 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  5  2  8 ]
+[ 10  4  9  7 ]
+[  6 14 15  3 ]
+[ 13  0 12 11 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 18.779271744364845
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:03.187034
+Manhattan Cost: 1248
+Manhattan Depth: 136
+Straight-Line Time: 0:00:01.827739
+Straight-Line Cost: 1114.7053025006976
+Straight-Line Depth: 142 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  6 15  7 ]
+[ 10  0  4  3 ]
+[  5  2  8 11 ]
+[ 13  9 14 12 ]
+
+
+Running Manhattan Test
+Initial cost: 22
+Goal state found
+
+Running StraightLine Test
+Initial cost: 18.485281374238575
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:01.581512
+Manhattan Cost: 1852
+Manhattan Depth: 208
+Straight-Line Time: 0:00:00.546513
+Straight-Line Cost: 789.9254240265022
+Straight-Line Depth: 104 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  5  6  1  3 ]
+[  2  0 11  7 ]
+[ 13  8 15  4 ]
+[ 10  9 14 12 ]
+
+
+Running Manhattan Test
+Initial cost: 22
+Goal state found
+
+Running StraightLine Test
+Initial cost: 19.478708664619077
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.035033
+Manhattan Cost: 389
+Manhattan Depth: 34
+Straight-Line Time: 0:00:01.769684
+Straight-Line Cost: 733.8511996033344
+Straight-Line Depth: 94 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  2 10  8  6 ]
+[  1  4 11 12 ]
+[  5 14  0  7 ]
+[  9  3 13 15 ]
+
+
+Running Manhattan Test
+Initial cost: 26
+Goal state found
+
+Running StraightLine Test
+Initial cost: 22.46284073991415
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:12.302709
+Manhattan Cost: 2480
+Manhattan Depth: 252
+Straight-Line Time: 0:00:02.575451
+Straight-Line Cost: 1396.9924083579658
+Straight-Line Depth: 188 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  6  5  4  7 ]
+[  9  1 10  8 ]
+[  2 11  3 15 ]
+[ 13  0 14 12 ]
+
+
+Running Manhattan Test
+Initial cost: 22
+Goal state found
+
+Running StraightLine Test
+Initial cost: 17.721349351738365
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:01.532459
+Manhattan Cost: 842
+Manhattan Depth: 92
+Straight-Line Time: 0:00:02.113011
+Straight-Line Cost: 1018.3238869439101
+Straight-Line Depth: 132 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  6  2  4 ]
+[  5 10  3 15 ]
+[  9 12  0 11 ]
+[ 13 14  8  7 ]
+
+
+Running Manhattan Test
+Initial cost: 16
+Goal state found
+
+Running StraightLine Test
+Initial cost: 13.70820393249937
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.624594
+Manhattan Cost: 753
+Manhattan Depth: 110
+Straight-Line Time: 0:00:00.045043
+Straight-Line Cost: 213.17720367271147
+Straight-Line Depth: 34 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  2 11  4 ]
+[  3  0  6  8 ]
+[ 13  9  7 10 ]
+[ 14  5 15 12 ]
+
+
+Running Manhattan Test
+Initial cost: 16
+Goal state found
+
+Running StraightLine Test
+Initial cost: 14.47213595499958
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:22.787687
+Manhattan Cost: 1660
+Manhattan Depth: 208
+Straight-Line Time: 0:00:09.020585
+Straight-Line Cost: 1420.4749599744548
+Straight-Line Depth: 192 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  5  2  3 ]
+[  6 14 13  4 ]
+[  0 10  7  8 ]
+[ 15 12  9 11 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 20.128990204491963
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:04.421208
+Manhattan Cost: 1582
+Manhattan Depth: 208
+Straight-Line Time: 0:00:01.564490
+Straight-Line Cost: 498.3305906931005
+Straight-Line Depth: 50 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  2 14  7 12 ]
+[  1  8  5  3 ]
+[  4 13 11 15 ]
+[  9  0  6 10 ]
+
+
+Running Manhattan Test
+Initial cost: 30
+Goal state found
+
+Running StraightLine Test
+Initial cost: 25.320327917582855
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:06.780453
+Manhattan Cost: 3657
+Manhattan Depth: 294
+Straight-Line Time: 0:00:07.617250
+Straight-Line Cost: 1734.3394721154725
+Straight-Line Depth: 182 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  6  9  2  3 ]
+[  1  7  4 14 ]
+[ 11  8  5 12 ]
+[ 13 10 15  0 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 19.36505818199175
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.973927
+Manhattan Cost: 1282
+Manhattan Depth: 116
+Straight-Line Time: 0:00:05.167919
+Straight-Line Cost: 1817.5971437894448
+Straight-Line Depth: 212 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  5  1  7  4 ]
+[ 11  3  2  8 ]
+[ 10  6  0 15 ]
+[  9 13 12 14 ]
+
+
+Running Manhattan Test
+Initial cost: 20
+Goal state found
+
+Running StraightLine Test
+Initial cost: 16.89292222699217
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:01.465397
+Manhattan Cost: 906
+Manhattan Depth: 132
+Straight-Line Time: 0:00:01.903810
+Straight-Line Cost: 684.2325700141243
+Straight-Line Depth: 90 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  3  6  2  1 ]
+[  7 13  8  4 ]
+[  9  5  0 11 ]
+[ 10 15 14 12 ]
+
+
+Running Manhattan Test
+Initial cost: 22
+Goal state found
+
+Running StraightLine Test
+Initial cost: 20.06449510224598
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.469447
+Manhattan Cost: 1433
+Manhattan Depth: 154
+Straight-Line Time: 0:00:09.326877
+Straight-Line Cost: 1433.5246357668987
+Straight-Line Depth: 176 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  6  3  5  2 ]
+[  1  9  7  4 ]
+[ 10 13 12  8 ]
+[ 14  0 11 15 ]
+
+
+Running Manhattan Test
+Initial cost: 20
+Goal state found
+
+Running StraightLine Test
+Initial cost: 17.478708664619077
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:03.461294
+Manhattan Cost: 1837
+Manhattan Depth: 218
+Straight-Line Time: 0:00:06.643323
+Straight-Line Cost: 307.4113572311154
+Straight-Line Depth: 30 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  5  6  3 ]
+[ 11  0  2  4 ]
+[ 14  7  8 12 ]
+[ 10  9 13 15 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 18.549776476484553
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:05.541276
+Manhattan Cost: 2355
+Manhattan Depth: 270
+Straight-Line Time: 0:00:02.025926
+Straight-Line Cost: 916.1376855499373
+Straight-Line Depth: 114 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  3 10  2  4 ]
+[  1  0 13  7 ]
+[  6  5 11  8 ]
+[  9 14 15 12 ]
+
+
+Running Manhattan Test
+Initial cost: 18
+Goal state found
+
+Running StraightLine Test
+Initial cost: 15.65685424949238
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:04.021827
+Manhattan Cost: 2810
+Manhattan Depth: 300
+Straight-Line Time: 0:00:07.067727
+Straight-Line Cost: 764.628949271964
+Straight-Line Depth: 110 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  2  5  7  3 ]
+[  9  6 13  8 ]
+[ 14  1  0 11 ]
+[ 10 15  4 12 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 19.469413449533647
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.745710
+Manhattan Cost: 781
+Manhattan Depth: 74
+Straight-Line Time: 0:00:00.420400
+Straight-Line Cost: 1000.7325382156125
+Straight-Line Depth: 106 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  2  4  8 12 ]
+[  1  5  3  0 ]
+[  9  7 10 15 ]
+[ 13  6 14 11 ]
+
+
+Running Manhattan Test
+Initial cost: 20
+Goal state found
+
+Running StraightLine Test
+Initial cost: 17.656854249492383
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.013012
+Manhattan Cost: 210
+Manhattan Depth: 20
+Straight-Line Time: 0:00:00.014014
+Straight-Line Cost: 192.42640687119285
+Straight-Line Depth: 20 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  1  7 11  2 ]
+[  3  8  4 12 ]
+[  5  9 10 15 ]
+[ 13  6 14  0 ]
+
+
+Running Manhattan Test
+Initial cost: 22
+Goal state found
+
+Running StraightLine Test
+Initial cost: 19.478708664619077
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.049046
+Manhattan Cost: 447
+Manhattan Depth: 46
+Straight-Line Time: 0:00:01.495423
+Straight-Line Cost: 276.10736785479503
+Straight-Line Depth: 26 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  6  3  4  8 ]
+[  2  0  7 10 ]
+[ 14  5 12 15 ]
+[ 13  1  9 11 ]
+
+
+Running Manhattan Test
+Initial cost: 26
+Goal state found
+
+Running StraightLine Test
+Initial cost: 20.119694989406533
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.313299
+Manhattan Cost: 712
+Manhattan Depth: 76
+Straight-Line Time: 0:00:00.242230
+Straight-Line Cost: 750.0633568315077
+Straight-Line Depth: 86 
+
+=== Random 5x5 test ===
+
+Initial State:
+[ 10  1  3  4 ]
+[  6  5 11  2 ]
+[ 14 13  8 12 ]
+[  9  0 15  7 ]
+
+
+Running Manhattan Test
+Initial cost: 20
+Goal state found
+
+Running StraightLine Test
+Initial cost: 15.950844619618657
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:01.727644
+Manhattan Cost: 1175
+Manhattan Depth: 162
+Straight-Line Time: 0:00:00.868827
+Straight-Line Cost: 699.6217553267414
+Straight-Line Depth: 100 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  3 10  1  4 ]
+[  5  7  2  8 ]
+[  0  6 11 12 ]
+[  9 13 14 15 ]
+
+
+Running Manhattan Test
+Initial cost: 14
+Goal state found
+
+Running StraightLine Test
+Initial cost: 13.414213562373096
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:01.029980
+Manhattan Cost: 1307
+Manhattan Depth: 182
+Straight-Line Time: 0:00:02.108006
+Straight-Line Cost: 777.6104631370546
+Straight-Line Depth: 118 
+
+=== Random 5x5 test ===
+
+Initial State:
+[  0  5  1  4 ]
+[ 10  2 11  8 ]
+[  7 15 14 12 ]
+[  9  6  3 13 ]
+
+
+Running Manhattan Test
+Initial cost: 24
+Goal state found
+
+Running StraightLine Test
+Initial cost: 20.892922226992173
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.423403
+Manhattan Cost: 1264
+Manhattan Depth: 116
+Straight-Line Time: 0:00:03.309152
+Straight-Line Cost: 1455.1060743923028
+Straight-Line Depth: 158 
+
+=== Random 4x4 ===
+
+Initial State:
+[ 10  2  0  4 ]
+[  1 11  3  7 ]
+[  5  9  6 15 ]
+[ 13 14 12  8 ]
+
+
+Running Manhattan Test
+Initial cost: 18
+Goal state found
+
+Running StraightLine Test
+Initial cost: 14.892922226992173
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.451429
+Manhattan Cost: 621
+Manhattan Depth: 74
+Straight-Line Time: 0:00:02.459341
+Straight-Line Cost: 1074.5215199486245
+Straight-Line Depth: 146 
+
+=== Random 5x5 ===
+
+Initial State:
+[  6  3  4  8  5 ]
+[  2  1  0 10 15 ]
+[ 11 12  7 14  9 ]
+[ 16 17 13 23 18 ]
+[ 21 22 19 24 20 ]
+
+
+Running Manhattan Test
+Initial cost: 23
+Goal state found
+
+Running StraightLine Test
+Initial cost: 18.899494936611667
+Goal state found
+
+--- Results ---
+
+Manhattan Time: 0:00:00.304290
+Manhattan Cost: 684
+Manhattan Depth: 83
+Straight-Line Time: 0:00:00.379361
+Straight-Line Cost: 476.7995700367978
+Straight-Line Depth: 61 
+
+=== Random 6x6 ===
+
+Initial State:
+[  2  8 10  3  5  6 ]
+[  1 16  7  4 11 12 ]
+[ 15 19 22 20 17 24 ]
+[  9 28 21 14 18 23 ]
+[ 13 25 26 33 35 29 ]
+[ 31 32 27 34 30  0 ]
+
+
+Running Manhattan Test
+Initial cost: 46
